@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootlib/boot.css"> 
+        <link rel="stylesheet" href="font_awsm/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="stylesheets/grid-infos.css">
+        <link rel="stylesheet" href="stylesheets/navigate.css">
+        <link rel="stylesheet" href="stylesheets/homepage.css">
+        <link rel="stylesheet" href="stylesheets/signinup.css">
+        <link rel="stylesheet" href="stylesheets/currently.css">
+        <link rel="stylesheet" href="stylesheets/contactus.css">
+        <link rel="icon" type="image/x-icon" href="images/icon_small_star.ico" />
+        <title>Home</title>
+    </head>
+    <body onresize="vertiHide()" onload="always();vertiHide()"> 
+        <nav>
+            <div class="menu"><button onclick="vMenu()"><span>&#9776;</span> Menu</button></div>
+            <ul class="navhorizontal">
+                <li><a href="#a" class="active"><span class="fa fa-home"></span> Home</a></li>
+                <li><a href="#b"><i class="fa fa-clone"></i> Services</a></li>
+                <li><a href="#ecommerce"><i class="fa fa-user"></i> E-commerce</a></li> 
+                <li><a href="#contact"><i class="fa fa-laptop"></i> Contact Our Team</a></li>
+                <li onmouseover="more()" onmouseout="hide()" style="position: absolute;"><a href="#d" style="border: none;"><i class="fa fa-caret-down"></i> More About</a>                   
+                    <ul id="more" style="display:none;">
+                        <li><a href="#">About privacy policies</a></li>
+                        <li><a href="#">About terms and conditions</a></li>
+                        <li><a href="#">About cookies policies</a></li>
+                    </ul>
+                </li> 
+                <li style="position: relative;"><a href="#d"><i class="fa fa-bell"></i> News</a></li>
+            </ul>
+            <ul class="navvertical">
+                <li><a href="#a" class="active"><span class="fa fa-home"></span> Home</a></li>
+                <li><a href="#b"><i class="fa fa-clone"></i> Services</a></li>
+                <li><a href="#ecommerce"><i class="fa fa-laptop"></i> E-commerce</a></li> 
+                <li><a href="#contact"><i class="fa fa-users"></i> Contact Our Team</a></li>
+                <li onclick="moreV()"><a href="#d" style="border: none;">More About&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down"></i> </a>                   
+                    <ul id="moreV" style="display:none;">
+                        <li><a href="#">About privacy policies</a></li>
+                        <li><a href="#">About terms and conditions</a></li>
+                        <li><a href="#">About cookies policies</a></li>
+                    </ul>
+                </li>
+                <li><a href="#d"><i class="fa fa-bell"></i> News</a></li>
+            </ul>
+        </nav>
+        <div class="slide">
+            <div class="imagebox"> 
+                <marquee  height="25%" direction="up" behavior="slide" scrollamount="2">
+                    <h2 style="color:cyan;text-shadow:1px 1px black,-1px -1px black,-1px 1px black,1px -1px black;">Shek`t online Market<br>
+                    <span style="color:white;text-shadow:3px 3px #888;">ሸቅጥ ናይ በይነ መረብ ዕዳጋ</span></h2>
+                </marquee><br>
+                <div class="content">
+                    <h1>Welcome to our community</h1><hr color="red">
+                    <p>
+                        Hey There <span class="fa "></span>. How are you our honorable visitors? This is a purpose-built e-commerce website designed by  
+                        <a title="about company" href="" style="text-decoration: none; color:red">KIFLOM&nbsp;SOFT&nbsp;SOLUTIONS&nbsp;&trade;</a> with the aim to provide you an effective 
+                        and secured platform which practically lighten the workload considerably while you want to buy and also sell Goods and Services.
+                    </p>
+                </div>
+                <div class="social">
+                    <a  href="#"><span class="fa fa-youtube" style="background:#bb0000 ;"></span></a>
+                    <a  href="#"><span class="fa fa-facebook" style="background:#3b5998"></span></a>
+                    <a  href="#"><span class="fa fa-twitter" style="background:#55acee;"></span></a>
+                    <a  href="#"><span class="fa fa-google-plus" style="background: #dd4b39;"></span></a>
+                    <a  href="#"><span class="fa fa-linkedin" style="background:#3b5998"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="ecommerce"></div>
+        <div class="signinup col-12">
+            <div class="generalsignin col-6 col-m-12">
+                <h2>Sign in to your E-commerce account</h2>
+                <p>log in to your  account using your user name and password log in to your account using your user name and password log in to your  account using your user name and password</p>                        
+                <form  class="signin clo-12"> 
+                        <div class="acc col-3">
+                            <img class="imgcont col-12" src="images/img_avatar.png">
+                            <div style="font-family: Cambria, serif;text-align: center;">MY ACCOUNT</div>
+                        </div>
+                        <div class="form col-9"> 
+                            <label for="txt">User Name </label><br>
+                            <input type="text" class="col-10" id="txt" placeholder=" " required><br><br>
+                            <label for="psw">Password </label><br>
+                            <input type="password" class="col-9" id="psw" placeholder=" " required><button type="button" class="eyebtn col-1"><span class="fa fa-eye-slash"></span></button>
+                            <br>
+                            <label><br>
+                            <input type="checkbox"  name="saver" ><span>Remined me</span>
+                            </label> <br> <br> 
+                            <button type="submit" class="col-6">Sign in &nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-sign-in"></span></button> <br>
+                            <a href="#">Forgot&nbsp;Password</a>
+                        </div>
+                </form>
+            </div>
+            <div class="signup col-6 col-m-12">
+                <h3 >Do you not have an account yet</h3>
+                <p> <b style="background: red;">WELL OKAY!!!</b>  down here is the link to  sign you up to our e-commerce platform for the first time.go ahead and join our community
+                .through signing up you agree to our<br><a href="nothing">cookies&nbsp;policies</a> , <a href="nothing">privacy&nbsp;policies</a> and <a href="nothing">terms and conditions</a>.</p>                    
+                <button class="col-6">Sign up&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-book"></span></button>
+            </div>
+        </div> 
+        <div class="contactteam col-12" id="contact">
+            <div class="col-3 col-m-6 col-s-12">
+                <img src="images/team4.jpg" alt="kiflom berihu" title="kiflom berihu">
+                <div class="name">Kiflom Berihu</div>
+                <div class="position">COE and Founder</div>
+                <div class="more">
+                    <div></div>
+                    <div><i class="fa fa-university"></i><span>PHD in Software Engineering from Mekele University</span></div>
+                    <div><i class="fa fa-map-marker"></i><span>&nbsp;&nbsp;Shire,Tigray</span></div>
+                    <div><i class="fa fa-envelope"></i><span>kiflomberihu@gmail.com</span></div>
+                    <button class="col-9">explore more</button>
+                </div>
+                <div class="detail"> 
+                    <span><a href="#" class="col-2"><i class="fa fa-facebook" style="background:#3b5998;"></i></a></span>    
+                    <span><a href="#" class="col-2"><i class="fa fa-twitter" style="background:#55acee;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-linkedin" style="background:#3b5998"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-envelope" style="background:#dd4b39;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-phone" style="background:#39ec39;"></i></a></span>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-s-12">
+                <img src="images/team2.jpg">
+                <div class="name">Binyam tesfay</div>
+                <div class="position">Managing Director</div>
+                <div class="more"> 
+                    <div></div>
+                    <div><i class="fa fa-university "></i><span>PHD in Software Engineering from Mekele University</span></div>
+                    <div><i class="fa fa-map-marker"></i><span>&nbsp;&nbsp;Freweyni,Tigray</span></div>
+                    <div><i class="fa fa-envelope"></i><span>binyam22@gmail.com</span></div>
+                    <button class="col-9">explore more</button>
+                </div>
+                <div class="detail"> 
+                    <span><a href="#" class="col-2"><i class="fa fa-facebook" style="background:#3b5998;"></i></a></span>    
+                    <span><a href="#" class="col-2"><i class="fa fa-twitter" style="background:#55acee;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-linkedin" style="background:#3b5998"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-envelope" style="background:#dd4b39;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-phone" style="background:#39ec39;"></i></a></span>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-s-12">
+                <img src="images/team3.jpg">
+                <div class="name">kapital Gebrehiwet</div>
+                <div class="position">Personnel  Manager</div>
+                <div class="more"> 
+                    <div></div>
+                    <div><i class="fa fa-university "></i><span>PHD in Human resource from Mekele University</span></div>
+                    <div><i class="fa fa-map-marker"></i><span>&nbsp;&nbsp;Mekele,Tigray</span></div>
+                    <div><i class="fa fa-envelope"></i><span>kapital273@gmail.com</span></div>
+                    <button class="col-9">explore more</button>
+                </div>
+                <div class="detail"> 
+                    <span><a href="#" class="col-2"><i class="fa fa-facebook" style="background:#3b5998;"></i></a></span>    
+                    <span><a href="#" class="col-2"><i class="fa fa-twitter" style="background:#55acee;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-linkedin" style="background:#3b5998"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-envelope" style="background:#dd4b39;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-phone" style="background:#39ec39;"></i></a></span>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-s-12">
+                <img src="images/team1.jpg">
+                <div class="name">Semere Fisha</div>
+                <div class="position">System Analyst</div>
+                <div class="more"> 
+                    <div></div>
+                    <div><i class="fa fa-university"></i><span>PHD in Software Engineering from Mekele University</span></div>
+                    <div><i class="fa fa-map-marker"></i><span>&nbsp;&nbsp;Humera,Tigray</span></div>
+                    <div><i class="fa fa-envelope"></i><span>semere273@gmail.com</span></div>
+                    <button class="col-9">explore more</button>
+                </div>
+                <div class="detail ">
+                    <span><a href="#" class="col-2"><i class="fa fa-facebook" style="background:#3b5998;"></i></a></span>    
+                    <span><a href="#" class="col-2"><i class="fa fa-twitter" style="background:#55acee;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-linkedin" style="background:#3b5998"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-envelope" style="background:#dd4b39;"></i></a></i></span>
+                    <span><a href="#" class="col-2"><i class="fa fa-phone" style="background:#39ec39;"></i></a></span> 
+                </div>
+            </div>
+        </div>
+        <div class="comment col-12">
+            <div class="contactform col-6 col-m-12"> 
+                <header>Would you please leave us your comment in the commenting session below ?</header>
+                <form>  
+                    <div class=" col-12 send">
+                        <input type="text" name="sender" placeholder="Your Name.... (required)" class="col-12" required>   
+                        <br>
+                        <input type="text" name="sender" placeholder="Your Address... (optional)" class="col-12"> 
+                        <br>
+                        <div class="choose col-6 col-m-12">
+                            <a></a>
+                            <p>
+                                Through what way do you want your massage be sent ?  <mark>Choose One</mark>
+                            </p>
+                            <label><input type="radio" name="way">E-mail</label>
+                            <label><input type="radio" name="way">User-Account</label>
+                        </div> 
+                        <div class="col-5 col-m-12">
+                            <input type="email" placeholder="Email" class='col-12' required><br>
+                            <input type="text" placeholder="User Name" class='col-12' required> <br>
+                            <input type="password" placeholder="Password" class='col-12' required><br> 
+                        </div>
+                        <textarea placeholder="Type what is on your mind..........." class="col-9 col-m-12" required></textarea> 
+                        <button type="submit" class="col-3 col-m-6">Send It&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-send"></i></button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="contactinfo col-6 col-m-12"> 
+                <div class="contact col-6 col-m-9">
+                    <header>Contact Us</header> 
+                    <p><i class="fa fa-map-marker"></i> <span><b>Address: </b>Road no 22, Romanat&nbsp;Adebabay, Mekele, Tigray.</span></p>
+                    <p><i class="fa fa-envelope-o"></i> <span><b>E-mail: </b> <a href="mailto:">sheketonlinemarket@gmail.com</a></span> </p>
+                    <p><i class="fa fa-globe"></i> <span><b>website:</b> <a href="">www.sheketonlinemarket.com</a></span></p>
+                    <p><i class="glyphicon glyphicon-phone-alt"></i> <span><b>Tel:</b> <a href=""> 0344427322</a></span></p>
+                    <div class="companysocial">
+                        <a  href="#"><span class="fa fa-youtube" style="background:#bb0000 ;"></span></a>
+                        <a  href="#"><span class="fa fa-facebook" style="background:#3b5998"></span></a>
+                        <a  href="#"><span class="fa fa-twitter" style="background:#55acee;"></span></a>
+                        <a  href="#"><span class="fa fa-google-plus" style="background: #dd4b39;"></span></a>
+                        <a  href="#"><span class="fa fa-linkedin" style="background:#3b5998"></span></a>
+                    </div>
+                </div>
+                <div class="mobile col-6 col-m-3">
+                    <header>Mobile Apps</header>
+                    <div>
+                        <a href=""><img src="images/apple_store.png"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="images/google_play.png"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="images/windows_store.png"></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="currently">
+            <div class="col-2 col-m-4 col-s-6"><span>240+</span><br>Company Stack Holders</div>
+            <div class="col-2 col-m-4 col-s-6"><span>3M+</span><br>Happy clients</div>
+            <div class="col-2 col-m-4 col-s-6"><span>24+</span><br>System Development Partners</div>
+            <div class="col-2 col-m-4 col-s-6"><span>10K+</span><br>Registered Shopes</div>
+            <div class="col-2 col-m-4 col-s-6"><span>24+</span><br>System Development Partners</div>
+            <div class="col-2 col-m-4 col-s-6"><span>10K+</span><br>Registered Shopes</div>
+        </div>
+        <div class="footer col-12">
+            <a href="#top">Top <span class="fa fa-angle-double-up"></span></a>
+            <div>I love programming. my primary language is javascript.Now I am gonna add some lorem text as my footer :) Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate architecto alias beatae harum quia fugit, quidem, tempore veniam minus quae placeat veritatis in distinctio, sunt similique natus sed quas dolor!<a href="">terms of use</a>,
+                <a href="">cookie</a> and  <a href="">privacy</a> policy</a>. 
+                Copyright &copy; 1999-2024 by Sheket pvt. ltd. All Rights Reserved.
+            </div>
+            <i style="display: block; float: right;">Powered by kiflom the brogrammer</i>
+        </div>
+        <script src="scripts/navigational.js"></script>
+    </body>
+</html> 
+
+

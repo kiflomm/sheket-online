@@ -1,0 +1,38 @@
+.currently { 
+    text-align: center; 
+    font-family: cursive;
+}
+.currently div{
+    background: #333;
+    color: white;
+    margin-top: 10px;
+    border: 2px solid #ddd; 
+    height: 140px;
+} 
+.currently span{
+    font-size: xx-large;
+    color:rgb(231, 26, 71);
+    font-family: cursive;
+}
+.footer{
+    background: #ddd;
+    padding-top: 50px;
+    margin-top: 5px;
+}
+.footer div{  
+    text-align: center;
+    margin:15px auto; 
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;  
+}
+.footer> a{
+    color: #009689;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;   
+}
+.footer > a:hover{
+    border: thin solid white;
+    box-shadow: 0px 0px 4px grey;
+}

@@ -1,0 +1,135 @@
+/*homepage styles*/
+/*
+.slide{
+    border:1px solid #009688;   
+    margin-top: 70px;
+}
+.imagebox{
+    position: relative;
+    background:rgba(172, 42, 42, 0.7);
+    background: url('../images/sound.jpg') left /100% 100% no-repeat ;
+    min-height:590px;
+    width:100%;
+}
+.content{
+    width:50%;
+    text-align:center;
+    margin-left:45%;
+    padding:10px;
+    background:rgba(255,255,255,0.4);
+}
+.content h1{
+    color:cyan; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:2px 2px 2px yellowgreen;
+}
+.content p{
+    background:rgba(0,0,0,0.7);
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 1.5;
+    color:white;
+    font-family: sansational;
+} 
+@media screen and (max-width:950px){
+    .imagebox{
+        background: url('../images/pineapple.jpg') center /100% 100% no-repeat ;
+    }
+    .content{
+        width:100%;
+        margin-left: 0px;
+        font-size: smaller;
+    }
+}
+@font-face {
+    font-family: sansational;
+    src: url(sansation_light.woff);
+}
+
+.social{
+    position: absolute;
+    bottom:0%;
+    left:0%;
+}
+.social span{  
+    color:white;
+    font-size: 20px;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.social span:hover{
+    opacity:0.4;
+}
+*/
+/*homepage styles*/
+.slide{
+    border:1px solid #009688;   
+    margin-top: 70px;
+}
+.imagebox{
+    position: relative;
+    background:rgba(172, 42, 42, 0.7);
+    background: url('../images/sound.jpg') left /100% 100% no-repeat;
+    background: linear-gradient(45deg,rgb(4, 74, 97), #5a6160, rgb(84, 153, 84)) center / 100% 50%;
+    height:370px;
+    width:100%;
+}
+.content{
+    width:50%;
+    margin-left: 50%;
+    text-align:center; 
+    padding:10px;
+    background:rgba(255,255,255,0.4);
+}
+.content h1{
+    color:cyan; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:2px 2px 2px yellowgreen;
+}
+.content p{
+    background:rgba(0,0,0,0.7);
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 1.5;
+    color:white;
+    font-family: sansational;
+} 
+@media screen and (max-width:950px){
+    .imagebox{
+        background: url('../images/pineapple.jpg') center /100% 100% no-repeat ;
+        background: linear-gradient(45deg,rgb(4, 74, 97), #5a6160, rgb(84, 153, 84)) center / 100% 50%;
+    }
+    .content{
+        width:100%;
+        margin-left: 0px;
+        font-size: smaller;
+    }
+}
+@font-face {
+    font-family: sansational;
+    src: url(sansation_light.woff);
+}
+
+.social{
+    position: absolute;
+    bottom:0%;
+    left:0%;
+}
+.social span{  
+    color:white;
+    font-size: 20px;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.social span:hover{
+    opacity:0.4;
+}
+

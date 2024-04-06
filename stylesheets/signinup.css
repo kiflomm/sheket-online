@@ -1,0 +1,107 @@
+/*sign in and sign up styles*/
+.imgcont{  
+    box-shadow: 0px 0px 20px; 
+    padding: 0px;
+    border-radius: 50%; 
+} 
+.signinup{ 
+    text-align: center;
+    margin-top: 20px;
+    background: #ddd;
+}
+.signin{ 
+    text-align: initial;
+    border:1px solid white; 
+    border-radius: 5px;
+    overflow: auto;
+    padding: 10px 10px 0px;
+    background:white;
+    box-shadow:0px 0px 15px grey; 
+} 
+.signin input[type='text'],.signin input[type='password'],.eyebtn{  
+    border:none;
+    float: none;
+    padding: 10px;
+    border-bottom: 1px solid lightslategrey;
+    outline: none;
+    background:white;
+} 
+@media screen and (max-width:500px){
+    .acc,.form{
+        width: 100%;
+    } 
+    .signin input[type='password']{
+        width: 83.3333%;
+    }
+    .signin input[type='text']{
+        width: 91.666%;
+    }
+}
+.signin input[type='text']:focus,.signin input[type='password']:focus,.eyebtn:focus{
+    background:rgb(230, 221, 229);
+}
+.signin button[type="submit"]{   
+    background: #009686;
+    color: #fff;
+    font-weight: bolder;
+    float: none;
+    border: none;   
+    outline: none;  
+    margin-left: 25%; 
+    box-shadow: 0px 5px 4px gray;  
+} 
+.signin button[type="submit"]:active{
+    box-shadow: 0px 0px 4px gray;
+    opacity: 0.4;
+}
+.signin button[type="submit"]:hover{
+    opacity: 0.7;
+}
+label[for="txt"],label[for="psw"]{ 
+    font-size: medium; 
+    opacity: 0.7;     
+} 
+label[for="txt"]::selection,label[for="psw"]::selection{
+    background-color: transparent;
+}
+.signup{
+    position: relative; 
+    top: 50px;
+}
+.signup h3::after{
+    content: "\2754";
+    font-size: xx-large;
+}
+.signup button{
+    border: none;
+    outline: none;
+    background: #009686;
+    color: #fff;
+    font-weight: bolder;
+    margin-left:25%;
+    box-shadow: 0px 5px 4px grey;
+}
+.signup button:active{
+    box-shadow: 0px 0px grey;
+}
+.signup button:hover{ 
+    opacity: 0.7; 
+}
+.generalsignin h2,.signup h3{ 
+    color: #009686;
+    font-family:  sans-serif;
+    text-transform: uppercase; 
+    text-shadow:3px 2px #fff; 
+    border-radius: 5px;
+} 
+.signinup p{  
+    color: white; 
+    border-left: 10px solid #009686;
+    padding: 25px;
+    background: rgba(0,0,0,0.4);
+}
+@media screen and (max-width:950px){
+    .signup{
+        top:0px;
+    }
+}

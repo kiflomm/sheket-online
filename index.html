@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .cover {
+            background-color: #ffffff;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        .logo img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 200px;
+        }
+        .title{
+          border: 1px solid red;
+          padding: 10px;
+          background-color: black;
+          color: white;
+          text-align: center;
+        }
+        h1 {
+            color: #333333;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555555;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #777777;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666666;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #333333;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #message {
+            color: #4CAF50;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            display: none;
+        }
+        .student-detail p{
+          text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <marquee behavior="slide"><h1 style="color: red;">Welcome to my website!</h1></marquee>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Mekelle_University_%28crest%29.png" alt="Mekelle University Crest"> 
+        </div>
+        <h2>Mekele University EITM College School of Computing</h2>
+        <h3>Web Design And Programming Individual Assignment</h3>
+        <p><div class="title"><strong style="color: red;">Project title:</strong>Landing page for an e-commerce website</div></p>
+        <div class="student-detail">
+        <p>Student Details:</p>
+        <p><strong>Your Name:</strong> KIFLOM BERIHU ABAY</p>
+        <p><strong>Student ID:</strong> EITM/UR170302/12</p>
+        <p><strong>Department:</strong> Software Engineering (3<sup>rd</sup> Year 1 <sup>st</sup> semister)</p>
+        <p><strong>Section:</strong> 1 </p> 
+        <p><strong>Email:</strong><a href="mailto:kiflomberihu2024@gmail.com" target="_blank">kiflomberihu2024@gmail.com</a></p>
+        <p><strong>Github:</strong><a href="https://github.com/kiflomm" target="_blank">github.com/kiflomm</a></p> 
+        </div>
+        <p style="text-align: right;">Submitted to : ins. Fanial</p>
+        <button onclick="showMessage()">continue to the web site</button>
+        <p id="message">You clicked the button!</p>
+    </div> 
+    <script>
+        function showMessage() {
+          window.location.href = "site.html";
+        }
+    </script>
+</body>
+</html>
