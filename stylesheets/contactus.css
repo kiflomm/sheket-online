@@ -22,10 +22,7 @@
     color: rgb(13, 13, 156);
     border-bottom: 2px solid red;
     font:large italic;
-}
-.detail{    
-    
-}
+} 
 .more{
     text-align: left;
     margin: 10px;
@@ -56,13 +53,7 @@
     vertical-align: middle;
     padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.detail span{  
-    
-}
-.detail span a{ 
-    
-}
+} 
 .detail span a i{ 
     font-size: 20px;
     width: 30px;
@@ -72,10 +63,7 @@
 }
 .comment{ 
     background:rgba(50,50,50,0.2);
-}
-.contactform{   
-    
-}
+} 
 .contactform header{
     background:#009688;
     color: #fff;
@@ -196,10 +184,7 @@
         margin: 0px;
         padding: 0px;
         width: 100%;
-    } 
-    .contact p a{
-        
-    }
+    }  
     .companysocial{
         position: absolute;
         left:90%;
